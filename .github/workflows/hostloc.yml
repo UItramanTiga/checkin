@@ -29,6 +29,12 @@ jobs:
         hostloc_username_2: ${{ secrets.hostloc_username_2 }}
         hostloc_password_2: ${{ secrets.hostloc_password_2 }}
         hostloc_username_3: ${{ secrets.hostloc_username_3 }}
-        hostloc_password_3: ${{ secrets.hostloc_password_3 }} 
+        hostloc_password_3: ${{ secrets.hostloc_password_3 }}
+        hostloc_username_4: ${{ secrets.hostloc_username_4 }}
+        hostloc_password_4: ${{ secrets.hostloc_password_4 }}
+        hostloc_username_5: ${{ secrets.hostloc_username_5 }}
+        hostloc_password_5: ${{ secrets.hostloc_password_5 }}
+        hostloc_username_6: ${{ secrets.hostloc_username_6 }} 
+        hostloc_password_6: ${{ secrets.hostloc_password_6 }}
       run: |
         python run.py
