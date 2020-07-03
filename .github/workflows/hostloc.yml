@@ -36,5 +36,8 @@ jobs:
         hostloc_password_5: ${{ secrets.hostloc_password_5 }}
         hostloc_username_6: ${{ secrets.hostloc_username_6 }} 
         hostloc_password_6: ${{ secrets.hostloc_password_6 }}
+        hostloc_password_7: ${{ secrets.hostloc_password_7 }}
+        hostloc_username_7: ${{ secrets.hostloc_username_7 }}
       run: |
         python run.py
+        
